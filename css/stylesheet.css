@@ -172,47 +172,85 @@ nav ul li {
   background-size: cover;
   width: 700px;
   height:300px;
+  margin-bottom: 4px;
 }
 
 #sketch3{
   background: url(../images/sketch3.JPG) no-repeat center center;
   background-size: cover;
-  width: 700px;
-  height:250px;
+  width: 461px;
+  height:500px;
+  display:inline-block;
+  float:left;
+  margin-top: -248px;
+  margin-right: 4px;
 }
 #sketch4{
   background: url(../images/sketch4.JPG) no-repeat center center;
   background-size: cover;
-  width: 700px;
+  width: 234px;
   height:250px;
+  float:left;
+  display: inline-block;
 }
 #sketch5{
   background: url(../images/sketch5.JPG) no-repeat center center;
   background-size: cover;
-  width: 700px;
-  height:250px;
+  width: 228px;
+  height:350px;
+  display: inline-block;
+  float:left;
+  margin-right: 4px;
 }
 #sketch6{
   background: url(../images/sketch6.JPG) no-repeat center center;
   background-size: cover;
-  width: 700px;
-  height:250px;
+  width: 228px;
+  height:350px;
+  float:left;
+  display:inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
 }
 #sketch7{
   background: url(../images/sketch7.JPG) no-repeat center center;
   background-size: cover;
-  width: 700px;
-  height:250px;
+  width: 230px;
+  height:350px;
+  float:left;
+  display:inline-block;
+  margin-right: 4px;
 }
 #sketch8{
   background: url(../images/sketch8.JPG) no-repeat center center;
   background-size: cover;
-  width: 700px;
-  height:250px;
+  width: 234px;
+  height:600px;
+  float:left;
+  margin-bottom: 4px;
 }
 #sketch10{
   background: url(../images/sketch10.JPG) no-repeat center center;
   background-size: cover;
+  width: 468px;
+  height:350px;
+  float:left;
+  margin-bottom:4px;
+}
+#sketch11{
+  background: url(../images/sketch11.JPG) no-repeat center center;
+  background-size: cover;
   width: 700px;
-  height:250px;
+  height:400px;
+  float:left;
+}
+.reihe2{
+  width:700px;
+  height:350px;
+  display: inline-block;
+}
+.reihe3{
+  width:700px;
+  height:256px;
+  display: inline-block;
 }

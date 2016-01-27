@@ -44,13 +44,36 @@ nav ul li {
 #menu{
   font-size:14px;
 }
-.row {
-  margin-top: 150px;
+
+.homerow {
+  margin-top: 200px;
   width: 100%;
   text-align: center;
 }
+#homeillu{
+  background: url(../images/seemann2.JPG) no-repeat center center;
+  background-size: cover;
+  width:300px;
+  height:450px;
+  display:inline-block;
 
+}
+#homesketch{
+  background: url(../images/sketch3.JPG) no-repeat center center;
+  background-size: cover;
+  width:300px;
+  height:450px;
+  display:inline-block;
 
+}
+#homeabout{
+  background: url(../images/sketch1.JPG) no-repeat center center;
+  background-size: cover;
+  width:300px;
+  height:450px;
+  display:inline-block;
+
+}
 .hochformat {
   display: inline-block;
 }
@@ -60,11 +83,12 @@ nav ul li {
 .hochformat:hover a {
   display: block;
   position: absolute;
-  height: 160px;
-  width: 200px;
+  height: 450px;
+  width: 300px;
   background: rgba(255,255,255,0.6);
-  padding-top: 140px;
+  padding-top: 225px;
   color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
 }
 
 

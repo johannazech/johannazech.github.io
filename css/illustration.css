@@ -68,3 +68,22 @@
   width: 300px;
   height:600px;
 }
+
+.gallery{
+  margin-top:20px;
+  height:100%;
+  width:700px;
+  margin-left:200px;
+}
+.gallery_image--breit{
+  width:700px;
+  height:300px;
+}
+.gallery_image--quadrat{
+  width:300px;
+  height:300px;
+}
+.gallery_image--hoch{
+  width:400px;
+  height:600px;
+}

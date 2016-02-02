@@ -1,21 +1,20 @@
+@import url(home.css);
+@import url(navigation.css);
+@import url(about.css);
+@import url(illustration.css);
+@import url(sketches.css);
+
 body{
   font-family: "Helvetica";
   font-weight:lighter;
   margin:0;
   padding:0;
 }
-/* links */
-
-a:link,a:active,a:visited {  text-decoration: none;  color : #000000; }
-a:hover { font-weight: bold;  text-decoration: none; color : #000000; }
-
 
 img{
   width:200px;
   height:auto;
 }
-
-
 h1{
   font-size: 14px;
   display:inline;
@@ -23,87 +22,8 @@ h1{
   font-weight:lighter;
   display:inline-block;
 }
-.logo{
-  position:fixed;
-  left:20px;
-  top:2px;
-  display:inline;
-  padding:5px;
-}
-nav{
-  position:fixed;
-  top:2px;
-  right:20px;
-}
-nav ul li {
-  display: inline;
-  list-type-style: none;
-  padding:5px;
-}
-
 #menu{
   font-size:14px;
-}
-
-.homerow {
-  margin-top: 200px;
-  width: 100%;
-  text-align: center;
-}
-#homeillu{
-  background: url(../images/seemann2.JPG) no-repeat center center;
-  background-size: cover;
-  width:300px;
-  height:450px;
-  display:inline-block;
-
-}
-#homesketch{
-  background: url(../images/sketch3.JPG) no-repeat center center;
-  background-size: cover;
-  width:300px;
-  height:450px;
-  display:inline-block;
-
-}
-#homeabout{
-  background: url(../images/sketch1.JPG) no-repeat center center;
-  background-size: cover;
-  width:300px;
-  height:450px;
-  display:inline-block;
-
-}
-.hochformat {
-  display: inline-block;
-}
-.hochformat a {
-  display: none;
-}
-.hochformat:hover a {
-  display: block;
-  position: absolute;
-  height: 450px;
-  width: 300px;
-  background: rgba(255,255,255,0.6);
-  padding-top: 225px;
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 20px;
-}
-
-
-.margin-img {
-  margin-right: 5px;
-}
-
-#aboutpicture{
-  width:300px;
-}
-#abouttext{
-  display:inline-block;
-  width:200px;
-  text-align: left;
-  font-size:13px;
 }
 
 .column{
@@ -112,169 +32,6 @@ nav ul li {
   width:700px;
   margin-left:200px;
 }
-
-#bild1 {
-  background: url(../images/5party2.JPG) no-repeat center center;
-  background-size: cover;
-  width:398px;
-  height:600px;
-  display:inline-block;
-
-}
-#bild2 {
-  background: url(../images/seemann2.JPG) no-repeat center center;
-  background-size: cover;
-  width:298px;
-  height:298px;
-  float:left;
-  margin-bottom:4px;
-
-}
-#bild3 {
-  background: url(../images/9healthy1.JPG) no-repeat center center;
-  background-size: cover;
-  width: 700px;
-  height:300px;
-  margin-bottom: 4px;
-}
-#bild4 {
-  background: url(../images/11holiday2.JPG) no-repeat center center;
-  background-size: cover;
-  width:398px;
-  height:300px;
-  float:left;
-}
-#bild5 {
-  background: url(../images/araber.JPG) no-repeat center center;
-  background-size: cover;
-  width:298px;
-  height:300px;
-  float:left;
-  margin-right:4px;
-
-}
-#bild6 {
-  background: url(../images/7maedchen2.JPG) no-repeat center center;
-  background-size: cover;
-  width: 298px;
-  height:298px;
-  float:left;
-}
-#bild7 {
-  background: url(../images/aquarell.JPG) no-repeat center center;
-  background-size: cover;
-  width: 300px;
-  height:600px;
-}
 .margin-unten{
   padding-bottom: 2px;
-}
-.reihe{
-  width:700px;
-  height:600px;
-  float:left;
-}
-.reiheklein{
-  width:700px;
-  height:300px;
-  float:left;
-  margin-top:4px;
-}
-.quadrate{
-  height:600px;
-  width:298px;
-  float:right;
-}
-.sketchbild{
-  width:350px;
-  height:auto;
-  float:left;
-}
-
-#sketch2{
-  background: url(../images/sketch2.JPG) no-repeat center center;
-  background-size: cover;
-  width: 700px;
-  height:300px;
-  margin-bottom: 4px;
-}
-
-#sketch3{
-  background: url(../images/sketch3.JPG) no-repeat center center;
-  background-size: cover;
-  width: 461px;
-  height:500px;
-  display:inline-block;
-  float:left;
-  margin-top: -248px;
-  margin-right: 4px;
-}
-#sketch4{
-  background: url(../images/sketch4.JPG) no-repeat center center;
-  background-size: cover;
-  width: 234px;
-  height:250px;
-  float:left;
-  display: inline-block;
-}
-#sketch5{
-  background: url(../images/sketch5.JPG) no-repeat center center;
-  background-size: cover;
-  width: 228px;
-  height:350px;
-  display: inline-block;
-  float:left;
-  margin-right: 4px;
-}
-#sketch6{
-  background: url(../images/sketch6.JPG) no-repeat center center;
-  background-size: cover;
-  width: 228px;
-  height:350px;
-  float:left;
-  display:inline-block;
-  margin-right: 4px;
-  margin-bottom: 4px;
-}
-#sketch7{
-  background: url(../images/sketch7.JPG) no-repeat center center;
-  background-size: cover;
-  width: 230px;
-  height:350px;
-  float:left;
-  display:inline-block;
-  margin-right: 4px;
-}
-#sketch8{
-  background: url(../images/sketch8.JPG) no-repeat center center;
-  background-size: cover;
-  width: 234px;
-  height:600px;
-  float:left;
-  margin-bottom: 4px;
-}
-#sketch10{
-  background: url(../images/sketch10.JPG) no-repeat center center;
-  background-size: cover;
-  width: 468px;
-  height:350px;
-  float:left;
-  margin-bottom:4px;
-}
-#sketch11{
-  background: url(../images/sketch11.JPG) no-repeat center center;
-  background-size: cover;
-  width: 700px;
-  height:400px;
-  float:left;
-}
-.reihe2{
-  width:700px;
-  height:350px;
-  display: inline-block;
-}
-.reihe3{
-  width:700px;
-  height:256px;
-  display: inline-block;
 }

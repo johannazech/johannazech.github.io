@@ -1,0 +1,22 @@
+
+
+a:link,a:active,a:visited {  text-decoration: none;  color : #000000; }
+a:hover { font-weight: bold;  text-decoration: none; color : #000000; }
+
+.logo{
+  position:fixed;
+  left:20px;
+  top:2px;
+  display:inline;
+  padding:5px;
+}
+nav{
+  position:fixed;
+  top:2px;
+  right:20px;
+}
+nav ul li {
+  display: inline;
+  list-type-style: none;
+  padding:5px;
+}

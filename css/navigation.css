@@ -3,6 +3,10 @@
 a:link,a:active,a:visited {  text-decoration: none;  color : #000000; }
 a:hover { font-weight: bold;  text-decoration: none; color : #000000; }
 
+.header{
+  width:100%;
+  position:fixed;
+}
 .logo{
   position:fixed;
   left:20px;
@@ -10,10 +14,17 @@ a:hover { font-weight: bold;  text-decoration: none; color : #000000; }
   display:inline;
   padding:5px;
 }
-nav{
+.logo-mobile{
+  display:none;
+}
+
+.desktop-nav{
   position:fixed;
   top:2px;
   right:20px;
+}
+.mobile-nav{
+  display:none;
 }
 nav ul li {
   display: inline;

@@ -91,3 +91,36 @@
   height:256px;
   display: inline-block;
 }
+
+.gallery_image--mittelhoch{
+  width:233px;
+  height:350px;
+  background-size: cover;
+
+  display:inline-block;
+  float:left;
+}
+.gallery_image--sehrhoch{
+  width:233px;
+  height:600px;
+  background-size: cover;
+
+  display:inline-block;
+  float:left;
+}
+.gallery_image--mittelbreit{
+  width:466px;
+  height:350px;
+  background-size: cover;
+
+  display:inline-block;
+  float:left;
+}
+.gallery_image--gross{
+  width:466px;
+  height:383px;
+  background-size: cover;
+
+  display:inline-block;
+  float:left;
+}

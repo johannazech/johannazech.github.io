@@ -35,3 +35,73 @@ h1{
 .margin-unten{
   padding-bottom: 2px;
 }
+
+
+@media screen and (max-width:768px){
+  .gallery{
+    width:100%;
+
+  }
+  .column{
+    width:100%;
+  }
+}
+
+@media screen and (max-width:480px){
+
+  .header{
+    position:fixed;
+    display:block;
+    height:500px;
+  }
+  .desktop-nav{
+    display:none;
+  }
+  .mobile-nav{
+    display:block;
+    float:none;
+    text-align: center;
+    position:inherit;
+  }
+  .logo{
+    display:none;
+  }
+  .logo-mobile{
+    display:block;
+    text-align:center;
+    font-weight:bold;
+    position:inherit;
+  }
+  .logo-mobile,.mobile-nav{
+    position:fixed;
+  }
+  nav ul li, h1{
+    font-size: 120%;
+  }
+
+  #homeillu #homesketch #homeabout{
+    width:100%;
+    margin:5px;
+  }
+
+  .gallery_image--4,.gallery_image--hoch,.gallery_image--breit,
+  .gallery_image--gross,.gallery_image--quadrat,.gallery_image--sehrhoch,
+  .gallery_image--mittelhoch,.gallery_image--mittelbreit{
+    width:100%;
+    margin:5px;
+    float:none;
+    display:block;
+    text-align:center;
+  }
+  .column{
+    display:block;
+    width:100%;
+    margin:0px;
+  }
+  .gallery{
+    display:block;
+    width:100%;
+
+  }
+
+}

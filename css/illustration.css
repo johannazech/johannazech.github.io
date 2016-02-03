@@ -81,7 +81,7 @@
   background-size: cover;
   display:inline-block;
   float:left;
-  
+
 }
 .gallery_image--quadrat{
   width:300px;
@@ -106,6 +106,15 @@
 
   display:inline-block;
   float:left;
+}
+.margin-bottom{
+  margin-bottom:4px;
+}
+.padding-right{
+  padding-right: 4px;
+}
+.padding-left{
+  padding-left:4px;
 }
 
 ul li{

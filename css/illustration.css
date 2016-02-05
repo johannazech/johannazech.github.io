@@ -78,9 +78,10 @@
 .gallery_image--breit{
   width:100%;
   height:300px;
-  background-size: cover;
+  background-size:cover;
   display:inline-block;
   float:left;
+  margin-bottom:4px;
 
 }
 .gallery_image--quadrat{
@@ -89,6 +90,7 @@
   background-size: cover;
   display:inline-block;
   float:left;
+
 
 }
 .gallery_image--hoch{

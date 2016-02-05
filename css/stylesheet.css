@@ -49,34 +49,36 @@ h1{
 
 @media screen and (max-width:480px){
 
-  .header{
-    position:fixed;
-    display:block;
-    height:500px;
-  }
   .desktop-nav{
     display:none;
   }
   .mobile-nav{
     display:block;
-    float:none;
     text-align: center;
-    position:inherit;
+    position:fixed;
+    width:100%;
+    margin-top:0px;
   }
   .logo{
     display:none;
   }
   .logo-mobile{
-    display:block;
     text-align:center;
     font-weight:bold;
-    position:inherit;
-  }
-  .logo-mobile,.mobile-nav{
+    width:100%;
     position:fixed;
+    top:0px;
+  }
+  nav ul li, .logo-mobile{
+    display: inline-block;
+    background-color: pink;
+    width:100%;
+    text-align:center;
+    float:none;
+
   }
   nav ul li, h1{
-    font-size: 120%;
+    font-size: 150%;
   }
 
   #homeillu #homesketch #homeabout{
@@ -89,7 +91,6 @@ h1{
   .gallery_image--mittelhoch,.gallery_image--mittelbreit{
     width:100%;
     margin:5px;
-    float:none;
     display:block;
     text-align:center;
   }

@@ -47,6 +47,52 @@
   font-size: 20px;
 }
 
+
+
+.overlay {
+  display: none;
+}
+.gallery_image:hover .overlay {
+  display: inline-block;
+}
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  color: rgba(255,255,255,0.8);
+  text-align:center;
+}
+.overlay p {
+  margin-top: 40%;
+}
+
+.overlay-hoch {
+  display: none;
+}
+.gallery_image:hover .overlay-hoch {
+  display: inline-block;
+}
+.overlay-hoch {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: rgba(0,0,0,0.4);
+  color: rgba(255,255,255,0.8);
+  text-align: center;
+  font-size:15px;
+}
+.overlay-hoch p {
+  margin-top: 40%;
+}
+
+
+
+
 .gallery{
   margin-top:20px;
   height:100%;

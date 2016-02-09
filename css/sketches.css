@@ -93,34 +93,42 @@
 }
 
 .gallery_image--mittelhoch{
-  width:233px;
+  width:232px;
   height:350px;
   background-size: cover;
-
+  background-position: center;
+  background-repeat: no-repeat;
   display:inline-block;
   float:left;
+  margin:2px;
 }
 .gallery_image--sehrhoch{
   width:233px;
   height:600px;
   background-size: cover;
-
+  background-position: center;
+  background-repeat: no-repeat;
   display:inline-block;
   float:left;
+  margin:2px;
 }
 .gallery_image--mittelbreit{
-  width:466px;
+  width:468px;
   height:350px;
   background-size: cover;
-
+  background-position: center;
+  background-repeat: no-repeat;
   display:inline-block;
   float:left;
+  margin:2px;
 }
 .gallery_image--gross{
   width:466px;
   height:383px;
   background-size: cover;
-
+  background-position: center;
+  background-repeat: no-repeat;
   display:inline-block;
   float:left;
+  margin:2px;
 }

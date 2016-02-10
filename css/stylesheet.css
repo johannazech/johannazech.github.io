@@ -47,7 +47,7 @@ h1{
   }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:640px){
 
   .desktop-nav{
     display:none;
@@ -55,8 +55,10 @@ h1{
   .mobile-nav{
     display:inline-block;
     text-align: center;
-    top:50px;
+    margin-top:30px;
     width:100%;
+    left:0;
+    background-color:white;
 
   }
   .logo{
@@ -64,20 +66,38 @@ h1{
   }
   .logo-mobile{
     text-align:center;
+    display:inline-block;
     font-weight:bold;
     width:100%
     top:0px;
+    position:fixed;
+    background-color:#669999;
+    color:white;
+
   }
+
+  .logo-mobile h1 {
+    float: none;
+  }
+
   nav ul li, .logo-mobile{
     display: inline-block;
-    background-color: pink;
     width:100%;
     text-align:center;
     float:none;
-
   }
+
+  nav ul li {
+    padding: 5px 0;
+  }
+
   nav ul li, h1{
     font-size: 150%;
+  }
+
+  #menu {
+    padding: 0;
+    margin-top: 0;
   }
 
   #homeillu #homesketch #homeabout{
@@ -85,10 +105,10 @@ h1{
     margin:5px;
   }
 
-  .gallery_image--4,.gallery_image--hoch,.gallery_image--breit,
+  .gallery_image--4-3,.gallery_image--hoch,.gallery_image--breit,
   .gallery_image--gross,.gallery_image--quadrat,.gallery_image--sehrhoch,
   .gallery_image--mittelhoch,.gallery_image--mittelbreit{
-    width:100%;
+    width: calc(100% - 10px);
     margin:5px;
     display:block;
     text-align:center;
@@ -101,7 +121,18 @@ h1{
   .gallery{
     display:block;
     width:100%;
+  }
+  .overlay-hoch{
+    display:none;
+  }
+  .overlay{
+    display:none;
+  }
+  .mobile-overlay-hoch{
+    display: inline;
 
   }
-
+  .mobile-overlay{
+    display:inline;
+  }
 }

@@ -87,10 +87,18 @@
   text-align: center;
   font-size:15px;
 }
+
+
 .overlay-hoch p {
   margin-top: 10%;
 }
 
+.mobile-overlay-hoch{
+  display:none;
+}
+.mobile-overlay{
+  display:none;
+}
 
 
 

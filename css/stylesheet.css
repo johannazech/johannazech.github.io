@@ -130,9 +130,12 @@ h1{
   }
   .mobile-overlay-hoch{
     display: inline;
+    font-size: 12px;
+
 
   }
   .mobile-overlay{
     display:inline;
+    font-size:12px;
   }
 }

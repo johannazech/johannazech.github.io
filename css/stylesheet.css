@@ -55,7 +55,7 @@ h1{
   .mobile-nav{
     display:inline-block;
     text-align: center;
-    margin-top:30px;
+    margin-top:65px;
     width:100%;
     left:0;
     background-color:white;
@@ -146,5 +146,6 @@ h1{
 .gallery_image:hover .overlay-hoch {
   display: none;
 }
+
 
 }

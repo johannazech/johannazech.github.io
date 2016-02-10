@@ -15,6 +15,10 @@
   display: inline-block;
 }
 
+span{
+  font-weight: bold;
+}
+
 .gallery_image--mittelhoch{
   width:232px;
   height:350px;

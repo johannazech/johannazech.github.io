@@ -129,13 +129,22 @@ h1{
     display:none;
   }
   .mobile-overlay-hoch{
-    display: inline;
+    display: inline-block;
     font-size: 12px;
-
-
+    float: left;
   }
   .mobile-overlay{
-    display:inline;
+    display:inline-block;
     font-size:12px;
+    float:left;
   }
+
+  .gallery_image:hover .overlay {
+    display: none;
+}
+
+.gallery_image:hover .overlay-hoch {
+  display: none;
+}
+
 }

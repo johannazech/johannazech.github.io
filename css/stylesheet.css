@@ -44,7 +44,9 @@ h1{
   }
 }
 
-@media screen and (max-width:640px){
+@media only screen and (max-device-width:641px) and (orientation:portrait),
+only screen and (max-width: 640px){
+
 
   .desktop-nav{
     display:none;
@@ -164,7 +166,9 @@ h1{
 .homerow{
   margin-top:40px;
 }
-
+span{
+  font-weight: bold;
+}
 
 
 }

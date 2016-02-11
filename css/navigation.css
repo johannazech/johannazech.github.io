@@ -3,6 +3,11 @@
 a:link,a:active,a:visited {  text-decoration: none;  color : #000000; }
 a:hover { font-weight: bold;  text-decoration: none; color : #000000; }
 
+.desktop-nav #menu a .aktuell{
+  font-weight: bold;
+}
+
+
 .header{
   width:100%;
   position:fixed;

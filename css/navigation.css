@@ -6,6 +6,9 @@ a:hover { font-weight: bold;  text-decoration: none; color : #000000; }
 .desktop-nav #menu a .aktuell{
   font-weight: bold;
 }
+.mobile-nav #menu a .aktuell{
+  font-weight: bold;
+}
 
 
 .header{

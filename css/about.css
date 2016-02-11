@@ -1,5 +1,6 @@
 #aboutpicture{
   width:300px;
+  display:inline-block;
 }
 #abouttext{
   display:inline-block;

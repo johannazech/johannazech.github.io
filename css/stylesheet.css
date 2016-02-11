@@ -11,10 +11,7 @@ body{
   padding:0;
 }
 
-img{
-  width:200px;
-  height:auto;
-}
+
 h1{
   font-size: 14px;
   display:inline;
@@ -94,6 +91,7 @@ h1{
   nav ul li, h1{
     font-size: 150%;
   }
+
 
   #menu {
     padding: 0;

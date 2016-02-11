@@ -44,6 +44,12 @@
   font-size: 20px;
 }
 
+.mobile-hochformat{
+  display:none;
+
+}
+
+
 
 .margin-img {
   margin-right: 5px;

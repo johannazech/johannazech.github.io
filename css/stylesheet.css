@@ -147,5 +147,26 @@ h1{
   display: none;
 }
 
+.hochformat{
+  display:none;
+}
+.hochformat a {
+  display:none;
+}
+.hochformat:hover a {
+  display:none;
+}
+.mobile-hochformat{
+  display:block;
+}
+.mobile-hochformat a{
+  display:block;
+  position: inherit;
+}
+.homerow{
+  margin-top:40px;
+}
+
+
 
 }

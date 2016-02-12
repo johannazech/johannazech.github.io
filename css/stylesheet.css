@@ -101,6 +101,10 @@ only screen and (max-width: 640px){
     margin-top: 0;
   }
 
+  .homerow{
+    display:none;
+  }
+
   #homeillu #homesketch #homeabout{
     width:calc(100% - 10px);
     margin:5px;

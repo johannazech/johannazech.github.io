@@ -102,14 +102,23 @@ only screen and (max-width: 640px){
   }
 
 
-  #homeillu #homesketch #homeabout{
+  #homeillu {
     width:calc(100% - 10px);
-    height:67%;
-    margin:5px;
-    text-align: center;
     display:block;
-    float:none;
-    position:absolute;
+    text-align: center;
+    margin:5px;
+  }
+  #homesketch{
+    width:calc(100% - 10px);
+    display:block;
+    text-align: center;
+    margin:5px;
+  }
+  #homeabout{
+    width:calc(100% - 10px);
+    display:block;
+    text-align: center;
+    margin:5px;
   }
 
   .gallery_image--4-3,.gallery_image--hoch,.gallery_image--breit,

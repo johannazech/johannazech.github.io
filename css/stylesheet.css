@@ -178,11 +178,21 @@ span{
 .gallery_image--hoch{
   height:60%;
 }
-.gallery_image--breit{}
-.gallery_image--gross{}
-.gallery_image--quadrat{}
+.gallery_image--breit{
+  height:40%;
+}
+.gallery_image--gross{
+  height:80%;
+}
+.gallery_image--quadrat{
+  height:100%;
+}
 .gallery_image--sehrhoch{}
-.gallery_image--mittelhoch{}
-.gallery_image--mittelbreit{}
+.gallery_image--mittelhoch{
+  height:150%;
+}
+.gallery_image--mittelbreit{
+  height:70%;
+}
 
 }

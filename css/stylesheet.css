@@ -91,7 +91,7 @@ only screen and (max-width: 640px){
   }
 
   nav ul li, h1{
-    font-size: 200%;
+    font-size: 400%;
   }
 
 
@@ -130,12 +130,12 @@ only screen and (max-width: 640px){
   }
   .mobile-overlay-hoch{
     display: inline-block;
-    font-size: 150%;
+    font-size: 200%;
     float: left;
   }
   .mobile-overlay{
     display:inline-block;
-    font-size:150%;
+    font-size:200%;
     float:left;
   }
 

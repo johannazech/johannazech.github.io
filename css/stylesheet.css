@@ -102,6 +102,8 @@ only screen and (max-width: 640px){
   }
 
   .homerow{
+    display:block;
+    float:none;
     margin:0px;
   }
 
@@ -186,7 +188,7 @@ span{
   height:80%;
 }
 .gallery_image--breit{
-  height:60%;
+  height:50%;
 }
 .gallery_image--gross{
   height:80%;

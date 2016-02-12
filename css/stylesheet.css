@@ -201,4 +201,21 @@ span{
   height:70%;
 }
 
+#aboutpicture{
+  width:calc(100% - 10px);
+  display:block;
+  text-align: center;
+
+}
+#abouttext{
+  display:block;
+  height:67%;
+  width:calc(100% - 10px);
+  text-align:center;
+  font-size:200%;
+  float:none;
+}
+
+
+
 }

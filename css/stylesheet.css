@@ -54,10 +54,11 @@ only screen and (max-width: 640px){
   .mobile-nav{
     display:inline-block;
     text-align: center;
-    margin-top:65px;
+    margin-top:200px;
     width:100%;
     left:0;
     background-color:white;
+    line-height: 250px;
 
   }
   .logo{

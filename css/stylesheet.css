@@ -103,12 +103,13 @@ only screen and (max-width: 640px){
 
   .homerow{
     display:block;
-    float:none;
+    width:100%;
     margin:0px;
   }
 
   #homeillu #homesketch #homeabout{
     width:calc(100% - 10px);
+    height:67%;
     margin:5px;
     text-align: center;
     display:inline-block;

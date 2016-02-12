@@ -185,11 +185,11 @@ span{
   height:80%;
 }
 .gallery_image--quadrat{
-  height:100%;
+  height:50%;
 }
 .gallery_image--sehrhoch{}
 .gallery_image--mittelhoch{
-  height:150%;
+  height:100%;
 }
 .gallery_image--mittelbreit{
   height:70%;

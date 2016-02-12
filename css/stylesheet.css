@@ -107,18 +107,21 @@ only screen and (max-width: 640px){
     display:block;
     text-align: center;
     margin:5px;
+    height:67%;
   }
   #homesketch{
     width:calc(100% - 10px);
     display:block;
     text-align: center;
     margin:5px;
+    height:67%;
   }
   #homeabout{
     width:calc(100% - 10px);
     display:block;
     text-align: center;
     margin:5px;
+    height:67%;
   }
 
   .gallery_image--4-3,.gallery_image--hoch,.gallery_image--breit,

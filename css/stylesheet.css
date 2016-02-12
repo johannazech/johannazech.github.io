@@ -102,8 +102,10 @@ only screen and (max-width: 640px){
   }
 
   #homeillu #homesketch #homeabout{
-    width:100%;
+    width:calc(100% - 10px);
     margin:5px;
+    text-align: center;
+    display:block;
   }
 
   .gallery_image--4-3,.gallery_image--hoch,.gallery_image--breit,

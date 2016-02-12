@@ -4,7 +4,7 @@
   text-align: center;
 }
 #homeillu{
-  background: url(../images/seemann2.JPG) no-repeat center center;
+  background: url(../images/seemann2.jpg) no-repeat center center;
   background-size: cover;
   width:300px;
   height:450px;
@@ -12,7 +12,7 @@
 
 }
 #homesketch{
-  background: url(../images/sketch3.JPG) no-repeat center center;
+  background: url(../images/sketch3.jpg) no-repeat center center;
   background-size: cover;
   width:300px;
   height:450px;
@@ -20,7 +20,7 @@
 
 }
 #homeabout{
-  background: url(../images/sketch1.JPG) no-repeat center center;
+  background: url(../images/sketch1.jpg) no-repeat center center;
   background-size: cover;
   width:300px;
   height:450px;

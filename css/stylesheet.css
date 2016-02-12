@@ -205,7 +205,7 @@ span{
   width:calc(100% - 10px);
   display:block;
   text-align: center;
-
+  margin:5px;
 }
 #abouttext{
   display:block;
@@ -213,8 +213,9 @@ span{
   width:calc(100% - 10px);
   text-align:center;
   font-size:200%;
-  line-height:200%;
+  line-height:180%;
   float:none;
+  margin:5px;
 }
 
 
